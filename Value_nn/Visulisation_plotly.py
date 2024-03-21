@@ -63,7 +63,7 @@ def visualize_agent_movement():
     
     fig.add_scatter(x=[5.5], y=[5.5], mode='markers', marker=dict(color='#66AA00', size=30, symbol='hexagram-open'),name ="Goal")
     
-    fig.show(autoplay=True)
+    fig.show()
     
 #function calls
 df=import_data_file("training_runs_optim_VALUE_6_X_6.csv")
